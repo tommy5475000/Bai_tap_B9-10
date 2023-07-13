@@ -75,6 +75,8 @@ function updateEmployees() {
   employees[index] = employee;
 
   display(employees);
+
+  $('#myModal').modal('hide')
 }
 
 function display(employees) {
